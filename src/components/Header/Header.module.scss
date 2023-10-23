@@ -1,0 +1,27 @@
+.root {
+  @apply bg-main text-white;
+  .container {
+    @apply max-w-[1200px] mx-auto py-[20px] px-[15px] flex justify-end;
+    .title {
+      @apply mr-auto  text-[2.4rem] font-bold;
+    }
+    .list {
+      @apply flex;
+      .link {
+        @apply text-[2.0rem] font-medium duration-200;
+        &:hover {
+          @apply mt-[2px] opacity-70;
+        }
+      }
+      .link-active {
+        @apply border-b-2 border-[#5c62ec];
+      }
+      li {
+        @apply mr-[20px];
+        &:last-of-type {
+          @apply mr-0;
+        }
+      }
+    }
+  }
+}
