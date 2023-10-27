@@ -1,0 +1,30 @@
+.root {
+  @apply bg-main text-white font-bold;
+  .container {
+    @apply max-w-[1200px] mx-auto py-[20px] px-[15px] flex flex-col items-center;
+    .media {
+      @apply flex justify-center;
+      a {
+        @apply mr-[20px];
+        &:last-of-type {
+          @apply mr-0;
+        }
+      }
+      img {
+        @apply duration-200;
+      }
+    }
+    .numBlock {
+      @apply my-[20px] duration-200;
+    }
+    .number,
+    span {
+      @apply text-[2.0rem] duration-200;
+    }
+    img:hover,
+    span:hover,
+    .numBlock:hover {
+      @apply scale-105 opacity-50;
+    }
+  }
+}

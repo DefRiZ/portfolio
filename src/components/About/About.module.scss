@@ -1,0 +1,24 @@
+.root {
+  @apply bg-main;
+  .container {
+    @apply max-w-[1200px] mx-auto text-white text-center font-bold bg-[url('/src/img/about/header-bg.png')] bg-no-repeat bg-center bg-auto;
+    h1 {
+      @apply text-[6rem] pt-[250px];
+      span {
+        @apply text-[6rem] text-[#5c62ec];
+      }
+    }
+    h2 {
+      @apply text-[4rem];
+    }
+    h3 {
+      @apply text-[2rem];
+    }
+    .btn {
+      @apply inline-block mt-[20px] mb-[250px]  py-[12px] px-[28px] bg-[#5c62ec] rounded-[5px] text-[2rem] font-normal duration-200;
+      &:hover {
+        @apply scale-110 opacity-80;
+      }
+    }
+  }
+}

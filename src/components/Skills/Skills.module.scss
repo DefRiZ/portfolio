@@ -1,0 +1,9 @@
+.root {
+  @apply text-black text-center;
+  h2 {
+    @apply pt-[50px] text-[4rem] font-bold;
+  }
+  .skills {
+    @apply mt-[30px] pb-[50px] max-w-[600px] mx-auto text-[2rem] font-normal;
+  }
+}

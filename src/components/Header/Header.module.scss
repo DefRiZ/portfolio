@@ -1,5 +1,5 @@
 .root {
-  @apply bg-main text-white;
+  @apply bg-main text-white border-b-[#26292d] border-b-2;
   .container {
     @apply max-w-[1200px] mx-auto py-[20px] px-[15px] flex justify-end;
     .title {

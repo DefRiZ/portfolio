@@ -4,8 +4,11 @@
 
 * {
   font-size: 10px;
-
   font-family: "Roboto", sans-serif;
+}
+
+.body {
+  @apply min-h-screen;
 }
 
 input {
