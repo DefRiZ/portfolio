@@ -4,7 +4,7 @@ import styles from "./Footer.module.scss";
 
 import inst from "../../img/media/instagram.svg";
 import linked from "../../img/media/linkedIn.svg";
-import git from "../../img/media/instagram.svg";
+import git from "../../img/media/gitHub.svg";
 
 const Footer = () => {
   return (

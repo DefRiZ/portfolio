@@ -5,7 +5,7 @@ import styles from "./About.module.scss";
 const About = () => {
   const onClickScroll = () => {
     window.scrollTo({
-      top: 550,
+      top: 700,
       behavior: "smooth",
     });
   };

@@ -4,6 +4,21 @@
     @apply pt-[50px] text-[4rem] font-bold;
   }
   .skills {
-    @apply mt-[30px] pb-[50px] max-w-[600px] mx-auto text-[2rem] font-normal;
+    @apply flex justify-center my-[40px];
+    img {
+      @apply max-w-[60px] max-h-[60px] mr-[20px] duration-200;
+      &:last-of-type {
+        @apply mr-[0px];
+      }
+      &:hover {
+        @apply scale-125;
+      }
+    }
+  }
+  .btn {
+    @apply inline-block mt-[20px] mb-[50px]  py-[12px] px-[28px] bg-[#5c62ec] rounded-[5px] text-[2rem] font-normal text-white duration-200;
+    &:hover {
+      @apply scale-110 opacity-80;
+    }
   }
 }

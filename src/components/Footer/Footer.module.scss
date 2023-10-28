@@ -3,7 +3,7 @@
   .container {
     @apply max-w-[1200px] mx-auto py-[20px] px-[15px] flex flex-col items-center;
     .media {
-      @apply flex justify-center;
+      @apply mt-[30px] flex justify-center;
       a {
         @apply mr-[20px];
         &:last-of-type {

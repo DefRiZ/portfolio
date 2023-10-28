@@ -1,0 +1,22 @@
+.root {
+  @apply text-center text-black;
+  h1 {
+    @apply pt-[60px] mb-[60px] text-[6rem] font-bold text-[#5c62ec];
+  }
+  h2 {
+    @apply mb-[25px] text-[4rem] font-bold;
+  }
+  span,
+  a {
+    @apply inline-block mb-[25px] text-[2rem] duration-200;
+    &:hover {
+      @apply opacity-80 scale-110 cursor-pointer;
+    }
+  }
+  span {
+    @apply font-bold;
+  }
+  a {
+    @apply text-[#5c62ec];
+  }
+}
