@@ -1,23 +1,41 @@
 .root {
-  @apply bg-main;
+  background-color: #171718;
   .container {
-    @apply max-w-[1200px] mx-auto text-white text-center font-bold bg-[url('/src/img/about/header-bg.png')] bg-no-repeat bg-center bg-auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("/img/about/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
     h1 {
-      @apply text-[6rem] pt-[250px];
+      font-size: 6rem;
+      padding-top: 250px;
       span {
-        @apply text-[6rem] text-[#5c62ec];
+        font-size: 6rem;
+        color: #5c62ec;
       }
     }
     h2 {
-      @apply text-[4rem];
+      font-size: 4rem;
     }
     h3 {
-      @apply text-[2rem];
+      font-size: 2rem;
     }
     .btn {
-      @apply inline-block mt-[20px] mb-[250px]  py-[12px] px-[28px] bg-[#5c62ec] rounded-[5px] text-[2rem] font-normal duration-200;
+      display: inline-block;
+      margin: 20px auto 250px auto;
+      padding: 12px 28px;
+      background-color: #5c62ec;
+      border-radius: 5px;
+      font-size: 2rem;
+      font-weight: 400;
+      transition-duration: 200ms;
       &:hover {
-        @apply scale-110 opacity-80;
+        scale: 1.1;
+        opacity: 0.8;
       }
     }
   }

@@ -1,25 +1,36 @@
 .root {
-  @apply bg-main text-white border-b-[#26292d] border-b-2;
+  background-color: #171718;
+  color: white;
+  border-bottom: #26292d 2px solid;
   .container {
-    @apply max-w-[1200px] mx-auto py-[20px] px-[15px] flex justify-end;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: flex-end;
     .title {
-      @apply mr-auto  text-[2.4rem] font-bold;
+      margin-right: auto;
+      font-size: 2.4rem;
+      font-weight: bold;
     }
     .list {
-      @apply flex;
+      display: flex;
       .link {
-        @apply text-[2.0rem] font-medium duration-200;
+        font-size: 2rem;
+        font-weight: 500;
+        transition-duration: 200ms;
         &:hover {
-          @apply mt-[2px] opacity-70;
+          margin-top: 2px;
+          opacity: 0.7;
         }
       }
       .linkActive {
-        @apply border-b-2 border-[#5c62ec];
+        border-bottom: 2px #5c62ec solid;
       }
       li {
-        @apply mr-[20px];
+        margin-right: 20px;
         &:last-of-type {
-          @apply mr-0;
+          margin-right: 0px;
         }
       }
     }

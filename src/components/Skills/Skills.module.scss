@@ -1,24 +1,41 @@
 .root {
-  @apply text-black text-center;
+  color: black;
+  text-align: center;
   h2 {
-    @apply pt-[50px] text-[4rem] font-bold;
+    padding-top: 50px;
+    font-size: 4rem;
+    font-weight: bold;
   }
   .skills {
-    @apply flex justify-center my-[40px];
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
     img {
-      @apply max-w-[60px] max-h-[60px] mr-[20px] duration-200;
+      max-width: 60px;
+      max-height: 60px;
+      margin-right: 20px;
+      transition-duration: 200ms;
       &:last-of-type {
-        @apply mr-[0px];
+        margin-right: 0px;
       }
       &:hover {
-        @apply scale-125;
+        scale: 1.25;
       }
     }
   }
   .btn {
-    @apply inline-block mt-[20px] mb-[50px]  py-[12px] px-[28px] bg-[#5c62ec] rounded-[5px] text-[2rem] font-normal text-white duration-200;
+    display: inline-block;
+    margin: 20px auto 50px auto;
+    padding: 12px 28px;
+    background: #5c62ec;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    transition-duration: 200ms;
     &:hover {
-      @apply scale-110 opacity-80;
+      scale: 1.1;
+      opacity: 0.8;
     }
   }
 }
