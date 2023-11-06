@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className={styles.root}>
       <div className={styles.container}>
         <div className={styles.media}>
-          <a href="https://github.com/DefRiZ">
+          <a href="https://instagram.com/vakulenko.adrii?igshid=NzZlODBkYWE4Ng==">
             <img src={inst} alt="inst-link" />
           </a>
           <a href="https://github.com/DefRiZ">

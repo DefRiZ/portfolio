@@ -24,7 +24,7 @@ const Skills = () => {
         <img src={sass} alt="" />
         <img src={tailwind} alt="" />
       </div>
-      <Link className={styles.btn} to="*">
+      <Link className={styles.btn} to="/projects">
         My projects
       </Link>
     </section>

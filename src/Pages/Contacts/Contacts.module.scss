@@ -27,6 +27,19 @@
   }
   span {
     font-weight: 700;
+    position: relative;
+    &::after {
+      content: "";
+      background-image: url("../../img/contacts/flag-for-flag-ukraine-svgrepo-com.svg");
+      background-size: 30px 30px;
+      background-repeat: no-repeat;
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 0%;
+      right: -25%;
+    }
   }
   a {
     color: #5c62ec;
