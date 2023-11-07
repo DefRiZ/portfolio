@@ -8,27 +8,27 @@ import reactSneakers from "../img/sites/react-sneakers.png";
 export const projects: projectElement[] = [
   {
     id: 0,
-    name: "womazing",
+    name: "Womazing",
     url: womazing,
     vercelDemo: "https://clothes-shop-navy.vercel.app/",
     gitHub: "https://github.com/DefRiZ/clothes-shop",
   },
   {
     id: 1,
-    name: "sedona",
+    name: "Sedona",
     url: sedona,
     vercelDemo: "https://sedona-kappa.vercel.app/",
     gitHub: "https://github.com/DefRiZ/sedona",
   },
   {
     id: 2,
-    name: "reactSushi",
+    name: "ReactSushi",
     url: reactSushi,
     gitHub: "https://github.com/DefRiZ/sushi-react",
   },
   {
     id: 3,
-    name: "reactSneakers",
+    name: "ReactSneakers",
     url: reactSneakers,
     gitHub: "https://github.com/DefRiZ/react-sneakers",
   },

@@ -4,4 +4,5 @@ export type projectElement = {
   url?: string;
   vercelDemo?: string;
   gitHub?: string;
+  discribe?: "string";
 };

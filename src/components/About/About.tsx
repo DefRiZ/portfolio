@@ -2,6 +2,8 @@ import React from "react";
 
 import styles from "./About.module.scss";
 
+import { motion } from "framer-motion";
+
 const About = () => {
   const onClickScroll = () => {
     window.scrollTo({
@@ -11,7 +13,12 @@ const About = () => {
   };
   return (
     <section className={styles.root}>
-      <div className={styles.container}>
+      <motion.div
+        initial={{ opacity: 0, y: -100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.5 }}
+        className={styles.container}
+      >
         <h1>
           Hello, my name is <span>Andrew</span>
         </h1>
@@ -20,7 +27,7 @@ const About = () => {
         <button onClick={onClickScroll} className={styles.btn}>
           My skills
         </button>
-      </div>
+      </motion.div>
     </section>
   );
 };
