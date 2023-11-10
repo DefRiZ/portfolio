@@ -26,10 +26,13 @@
 
   .link {
     max-width: 370px;
-    height: 278px;
+    height: 210px;
     display: flex;
     align-items: center;
     transition-duration: 1s;
+    @media (max-width: 375px) {
+      max-width: 250px;
+    }
     &:hover {
       .image {
         opacity: 0.1;
@@ -39,6 +42,9 @@
     .image {
       max-width: 370px;
       max-height: 278px;
+      @media (max-width: 375px) {
+        max-width: 250px;
+      }
     }
   }
 }

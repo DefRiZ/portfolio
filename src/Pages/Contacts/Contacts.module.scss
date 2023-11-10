@@ -7,11 +7,17 @@
     font-size: 6rem;
     font-weight: 700;
     color: #5c62ec;
+    @media (max-width: 499px) {
+      font-size: 5rem;
+    }
   }
   h2 {
     margin-bottom: 25px;
     font-size: 4rem;
     font-weight: 700;
+    @media (max-width: 499px) {
+      font-size: 3rem;
+    }
   }
   span,
   a {
