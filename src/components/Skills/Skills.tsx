@@ -17,7 +17,7 @@ const Skills = () => {
     <motion.section
       initial={{ opacity: 0, x: -100 }}
       whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 2 }}
       className={styles.root}
     >
       <h2>Frontend</h2>
