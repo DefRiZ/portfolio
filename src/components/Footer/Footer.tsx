@@ -14,7 +14,7 @@ const Footer = () => {
           <a href="https://instagram.com/vakulenko.adrii?igshid=NzZlODBkYWE4Ng==">
             <img src={inst} alt="inst-link" />
           </a>
-          <a href="https://github.com/DefRiZ">
+          <a href="https://www.linkedin.com/in/andrew-vakulenko-6b21a429b/">
             <img src={linked} alt="linkedIn-link" />
           </a>
           <a href="https://github.com/DefRiZ">
