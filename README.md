@@ -1,1 +1,1 @@
-My portfolio, where you can see my skills and pet project sites
+My portfolio, in which you can see my skills and pet project sites
