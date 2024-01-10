@@ -18,8 +18,11 @@
       border-radius: 12px;
       max-width: 370px;
       max-height: 278px;
-      @media (max-width: 375px) {
-        max-width: 250px;
+      @media (max-width: 625px) {
+        max-width: 270px;
+      }
+      @media (max-width: 450px) {
+        max-width: 175px;
       }
     }
   }

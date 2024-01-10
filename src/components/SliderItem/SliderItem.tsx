@@ -15,6 +15,14 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   centerPadding: "0px",
+  // responsive: [
+  //   {
+  //     breakpoint: 625,
+  //     settings: {
+  //       centerPadding: "200px",
+  //     },
+  //   },
+  // ],
 };
 
 const SliderItem = () => {

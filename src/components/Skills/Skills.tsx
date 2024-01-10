@@ -5,6 +5,7 @@ import css from "../../img/skills/css-3-svgrepo-com.svg";
 import js from "../../img/skills/js-svgrepo-com.svg";
 import ts from "../../img/skills/typescript-official-svgrepo-com.svg";
 import react from "../../img/skills/react-svgrepo-com.svg";
+import next from "../../img/skills/nextjs-icon-svgrepo-com.svg";
 import redux from "../../img/skills/redux-svgrepo-com.svg";
 import sass from "../../img/skills/sass-svgrepo-com.svg";
 import tailwind from "../../img/skills/tailwind-svgrepo-com.svg";
@@ -27,6 +28,7 @@ const Skills = () => {
         <img src={js} alt="js" />
         <img src={ts} alt="ts" />
         <img src={react} alt="react" />
+        <img src={next} alt="next" />
         <img src={redux} alt="redux" />
         <img src={sass} alt="sass" />
         <img src={tailwind} alt="tailwind" />
