@@ -7,6 +7,7 @@ import ts from "../../img/skills/typescript-official-svgrepo-com.svg";
 import react from "../../img/skills/react-svgrepo-com.svg";
 import next from "../../img/skills/nextjs-icon-svgrepo-com.svg";
 import redux from "../../img/skills/redux-svgrepo-com.svg";
+import zustand from "../../img/skills/zustand.png";
 import sass from "../../img/skills/sass-svgrepo-com.svg";
 import tailwind from "../../img/skills/tailwind-svgrepo-com.svg";
 import { Link } from "react-router-dom";
@@ -30,6 +31,7 @@ const Skills = () => {
         <img src={react} alt="react" />
         <img src={next} alt="next" />
         <img src={redux} alt="redux" />
+        <img className={styles.zustand} src={zustand} alt="zustand" />
         <img src={sass} alt="sass" />
         <img src={tailwind} alt="tailwind" />
       </div>
