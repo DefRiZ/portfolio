@@ -8,7 +8,6 @@ const ProjectItem: React.FC<projectElement> = ({ id, name, url }) => {
   return (
     <div className={styles.root}>
       <Link className={styles.link} to={`/projects/${id}`}>
-        <h2>{name}</h2>
         <img className={styles.image} src={url} alt="portfolio-project" />
       </Link>
     </div>

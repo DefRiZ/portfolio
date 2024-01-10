@@ -6,6 +6,7 @@ import ProjectItem from "../../components/ProjectItem/ProjectItem";
 import { projectElement } from "../../types";
 import { projects } from "../../projectArray/arrayProject";
 import { motion } from "framer-motion";
+import SliderItem from "../../components/SliderItem/SliderItem";
 
 const Projects = () => {
   React.useEffect(() => {
@@ -20,11 +21,12 @@ const Projects = () => {
         className={styles.container}
       >
         <h1>Projects</h1>
-        <ul className={styles.projects}>
+        <SliderItem />
+        {/* <ul className={styles.projects}>
           {projects.map((project: projectElement) => (
             <ProjectItem key={project.id} {...project} />
           ))}
-        </ul>
+        </ul> */}
       </motion.div>
     </section>
   );

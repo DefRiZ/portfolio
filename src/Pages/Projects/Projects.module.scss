@@ -10,18 +10,18 @@
       padding: 40px 0;
     }
     .projects {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      grid-column-gap: 30px;
-      grid-row-gap: 50px;
-      justify-items: center;
-      padding-bottom: 40px;
-      @media (max-width: 830px) {
-        grid-template-columns: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 30px;
-      }
+      // display: grid;
+      // grid-template-columns: repeat(2, 1fr);
+      // grid-template-rows: repeat(2, 1fr);
+      // grid-column-gap: 30px;
+      // grid-row-gap: 50px;
+      // justify-items: center;
+      // padding-bottom: 40px;
+      // @media (max-width: 830px) {
+      //   grid-template-columns: 1fr;
+      //   grid-column-gap: 0px;
+      //   grid-row-gap: 30px;
+      // }
     }
   }
 }

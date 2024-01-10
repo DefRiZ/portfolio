@@ -12,8 +12,10 @@ import SingleProject from "./Pages/SingleProject/SingleProject";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <div className="body">
+      <div className="header">
+        <Header />{" "}
+      </div>
+      <div className="main">
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/contacts" element={<Contacts />} />
@@ -21,7 +23,9 @@ function App() {
           <Route path="/projects/:id" element={<SingleProject />} />
         </Routes>
       </div>
-      <Footer />
+      <div className="footer">
+        <Footer />{" "}
+      </div>
     </div>
   );
 }
