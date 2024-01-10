@@ -23,7 +23,7 @@ export const projects: projectElement[] = [
   },
   {
     id: 2,
-    name: "ReactSushi",
+    name: "YourMeat",
     url: yourmeat,
     vercelDemo: "https://yourmeat.vercel.app/",
     gitHub: "https://github.com/DefRiZ/yourmeat",
