@@ -14,15 +14,7 @@ const settings = {
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  centerPadding: "0px",
-  // responsive: [
-  //   {
-  //     breakpoint: 625,
-  //     settings: {
-  //       centerPadding: "200px",
-  //     },
-  //   },
-  // ],
+  centerPadding: "100px",
 };
 
 const SliderItem = () => {

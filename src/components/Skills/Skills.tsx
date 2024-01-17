@@ -16,29 +16,85 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <motion.section
-      initial={{ opacity: 0, x: -100 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 2 }}
-      className={styles.root}
-    >
+    <section className={styles.root}>
       <h2>Frontend</h2>
       <div className={styles.skills}>
-        <img src={html} alt="html" />
-        <img src={css} alt="css" />
-        <img src={js} alt="js" />
-        <img src={ts} alt="ts" />
-        <img src={react} alt="react" />
-        <img src={next} alt="next" />
-        <img src={redux} alt="redux" />
-        <img className={styles.zustand} src={zustand} alt="zustand" />
-        <img src={sass} alt="sass" />
-        <img src={tailwind} alt="tailwind" />
+        <motion.img
+          initial={{ opacity: 0, x: -10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          src={html}
+          alt="html"
+        />
+        <motion.img
+          initial={{ opacity: 0, x: -10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          src={css}
+          alt="css"
+        />
+        <motion.img
+          initial={{ opacity: 0, x: -10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          src={js}
+          alt="js"
+        />
+        <motion.img
+          initial={{ opacity: 0, x: -10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          src={ts}
+          alt="ts"
+        />
+        <motion.img
+          initial={{ opacity: 0, x: -10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          src={react}
+          alt="react"
+        />
+        <motion.img
+          initial={{ opacity: 0, x: -10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          src={next}
+          alt="next"
+        />
+        <motion.img
+          initial={{ opacity: 0, x: -10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          src={redux}
+          alt="redux"
+        />
+        <motion.img
+          initial={{ opacity: 0, x: -10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          className={styles.zustand}
+          src={zustand}
+          alt="zustand"
+        />
+        <motion.img
+          initial={{ opacity: 0, x: -10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          src={sass}
+          alt="sass"
+        />
+        <motion.img
+          initial={{ opacity: 0, x: -10 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          src={tailwind}
+          alt="tailwind"
+        />
       </div>
       <Link className={styles.btn} to="/projects">
         My projects
       </Link>
-    </motion.section>
+    </section>
   );
 };
 
