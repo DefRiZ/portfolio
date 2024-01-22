@@ -30,6 +30,7 @@ const SingleProject = () => {
             alt="single-page project"
           />
         </div>
+        <p className={styles.discribe}>{project.discribe}</p>
         <div className={styles.links}>
           {project.vercelDemo && (
             <Link className={styles.vercelBtn} to={project.vercelDemo}>
