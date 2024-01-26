@@ -2,7 +2,6 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { projects } from "../../projectArray/arrayProject";
 import { projectElement } from "../../types";
-import { motion } from "framer-motion";
 
 import vercel from "../../img/links/vercel-logo-svgrepo-com.svg";
 import github from "../../img/links/github-142-svgrepo-com.svg";
@@ -16,12 +15,7 @@ const SingleProject = () => {
   const project: projectElement = projects[id ? +id : 0];
   return (
     <div className={styles.root}>
-      <motion.div
-        initial={{ opacity: 0, y: -100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        className={styles.container}
-      >
+      <div className={styles.container}>
         <h2 className={styles.title}>{project.name}</h2>
         <div className={styles.imgBlock}>
           <img
@@ -45,7 +39,7 @@ const SingleProject = () => {
             </Link>
           )}
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };

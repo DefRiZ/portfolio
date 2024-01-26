@@ -3,6 +3,7 @@ import { projectElement } from "../types";
 import womazing from "../img/sites/womazing.png";
 import sedona from "../img/sites/sedona.png";
 import yourmeat from "../img/sites/yourmeat.png";
+import prismatic from "../img/sites/prismatic.png";
 import reactSushi from "../img/sites/react-sushi.png";
 import reactSneakers from "../img/sites/react-sneakers.png";
 
@@ -33,6 +34,14 @@ export const projects: projectElement[] = [
     gitHub: "https://github.com/DefRiZ/yourmeat",
     discribe: `Web page for burger ordering. Made with HTML, SCSS, TypeScript, Next.js, Zustand.
     If you can't get burger's list turn on your vpn.`,
+  },
+  {
+    id: 2,
+    name: "Prismatic",
+    url: prismatic,
+    vercelDemo: "https://prismatic-gray.vercel.app/",
+    gitHub: "https://github.com/DefRiZ/prismatic",
+    discribe: `Adapted dietary supplements landing page.`,
   },
   {
     id: 3,

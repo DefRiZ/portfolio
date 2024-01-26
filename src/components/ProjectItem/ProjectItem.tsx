@@ -1,8 +1,8 @@
 import React from "react";
-
-import styles from "./ProjectItem.module.scss";
 import { projectElement } from "../../types";
 import { Link } from "react-router-dom";
+
+import styles from "./ProjectItem.module.scss";
 
 const ProjectItem: React.FC<projectElement> = ({ id, name, url }) => {
   return (

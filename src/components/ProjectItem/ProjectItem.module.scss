@@ -1,5 +1,7 @@
 .root {
-  margin: 60px auto;
+  height: 400px;
+  display: flex;
+  align-items: center;
   .link {
     .image {
       border-radius: 12px;
@@ -21,12 +23,3 @@
     }
   }
 }
-// max-width: 370px;
-// height: 210px;
-// display: flex;
-// justify-content: center;
-// align-items: center;
-
-// @media (max-width: 375px) {
-//   max-width: 250px;
-// }

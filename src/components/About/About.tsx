@@ -1,8 +1,7 @@
-import React from "react";
+import { motion } from "framer-motion";
+import { textAnimation } from "../../animations";
 
 import styles from "./About.module.scss";
-
-import { motion } from "framer-motion";
 
 const About = () => {
   const onClickScroll = () => {
@@ -13,21 +12,41 @@ const About = () => {
   };
   return (
     <section className={styles.root}>
-      <motion.div
-        initial={{ opacity: 0, y: -100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.5 }}
-        className={styles.container}
-      >
-        <h1>
+      <div className={styles.container}>
+        <motion.h1
+          variants={textAnimation}
+          initial="hidden"
+          whileInView="visible"
+          custom={0.2}
+          transition={{ duration: 0.4, ease: [1, 1, 1, 1] }}
+          viewport={{ once: true }}
+        >
           Hello, my name is <span>Andrew</span>
-        </h1>
-        <h2>and I want to become</h2>
-        <h3>a junior frontend developer</h3>
+        </motion.h1>
+        <motion.h2
+          variants={textAnimation}
+          initial="hidden"
+          whileInView="visible"
+          custom={0.3}
+          transition={{ duration: 0.4, ease: [1, 1, 1, 1] }}
+          viewport={{ once: true }}
+        >
+          and I want to become
+        </motion.h2>
+        <motion.h3
+          variants={textAnimation}
+          initial="hidden"
+          whileInView="visible"
+          custom={0.4}
+          transition={{ duration: 0.4, ease: [1, 1, 1, 1] }}
+          viewport={{ once: true }}
+        >
+          a junior frontend developer
+        </motion.h3>
         <button onClick={onClickScroll} className={styles.btn}>
           My skills
         </button>
-      </motion.div>
+      </div>
     </section>
   );
 };
