@@ -36,7 +36,7 @@ export const projects: projectElement[] = [
     If you can't get burger's list turn on your vpn.`,
   },
   {
-    id: 2,
+    id: 3,
     name: "Prismatic",
     url: prismatic,
     vercelDemo: "https://prismatic-gray.vercel.app/",
@@ -44,7 +44,7 @@ export const projects: projectElement[] = [
     discribe: `Adapted dietary supplements landing page.`,
   },
   {
-    id: 3,
+    id: 4,
     name: "ReactSushi",
     url: reactSushi,
     gitHub: "https://github.com/DefRiZ/sushi-react",
@@ -52,7 +52,7 @@ export const projects: projectElement[] = [
     React, Redux Toolkit etc`,
   },
   {
-    id: 4,
+    id: 5,
     name: "ReactSneakers",
     url: reactSneakers,
     gitHub: "https://github.com/DefRiZ/react-sneakers",
